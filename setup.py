@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pykatana",
-    version="1.0.1",
+    version="1.0.2",
     author="Abolfazl Danayi",
     author_email="adanayidet@gmail.com",
     description="A Python-based build system for creating static websites with ease and flexibility.",
