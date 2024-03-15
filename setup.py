@@ -1,3 +1,22 @@
+#
+# بسم الله الرحمن الرحیم
+# اللهم صل علی محمد و آل محمد
+# ---------------------------
+# Created on Fri Mar 15 2024
+#
+# Copyright (c) 2024 Abolfazl Danayi
+# adanayidet@gmail.com
+#
+
+from setuptools import setup, find_packages
+
+setup(
+    name="pykatana",
+    version="1.0.0",
+    author="Abolfazl Danayi",
+    author_email="adanayidet@gmail.com",
+    description="A Python-based build system for creating static websites with ease and flexibility.",
+    long_description="""
 # pykatana
 
 **pykatana** is a Python-based build system designed for creating static websites with ease and flexibility.
@@ -85,3 +104,18 @@ python3 -m pykatana -b
 
 ## License
 This project is licensed under the GNU General Public License v3.0.
+    """,
+    long_description_content_type="text/markdown",
+    url="https://github.com/adanayi/pykatana",
+    packages=find_packages(),
+    install_requires=[
+        "jinja2",
+        "watchdog",
+    ],
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+    ],
+)
