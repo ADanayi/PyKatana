@@ -41,7 +41,7 @@ cd pykatana
 ```
 2. Copy the necessary files:
 ```bash
-cp -r pykatana/__make/* .
+cp -r pykatana/project_make/* .
 ```
 3. On Linux:
 ```bash

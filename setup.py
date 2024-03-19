@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pykatana",
-    version="1.0.0",
+    version="1.0.1",
     author="Abolfazl Danayi",
     author_email="adanayidet@gmail.com",
     description="A Python-based build system for creating static websites with ease and flexibility.",
@@ -46,7 +46,7 @@ pip install pykatana
 Download prebuilt executables from the Releases section.
 
 ### Method 3: Clone the repository
-Clone the repository and add it inside your project folder. You can then access **pykatana** using:
+Clone the repository and copy "pykatana/pykatana" inside your project folder. You can then access **pykatana** using:
 
 ```bash
 python3 -m pykatana [args]
@@ -60,7 +60,7 @@ cd pykatana
 ```
 2. Copy the necessary files:
 ```bash
-cp -r pykatana/__make/* .
+cp -r pykatana/project_make/* .
 ```
 3. On Linux:
 ```bash
