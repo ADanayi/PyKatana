@@ -24,6 +24,8 @@ def _init():
 
         try:
             shipath = os.path.join(sys._MEIPASS, "pykatana")
+            if not os.path.exists(shipath):
+                shipath = os.path.join(shipath, "pykatana")
         except:
             shipath = os.path.abspath(
                 __file__.replace("run.py", "").replace("__program.py", "")

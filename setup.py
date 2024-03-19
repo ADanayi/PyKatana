@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pykatana",
-    version="1.0.1",
+    version="1.0.10",
     author="Abolfazl Danayi",
     author_email="adanayidet@gmail.com",
     description="A Python-based build system for creating static websites with ease and flexibility.",
@@ -118,4 +118,17 @@ This project is licensed under the GNU General Public License v3.0.
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
+    include_package_data=True,
+    package_data={
+        '': [
+            '__data/logo/*',
+            '__make/*',
+            '__pykatana_init/*',
+            '__pykatana_init/src/*',
+            '__pykatana_init/src/pykatana/engine/*',
+            '__pykatana_init/src/static/migration/*',
+            '__pykatana_init/templates/*'
+
+        ]
+    }
 )
